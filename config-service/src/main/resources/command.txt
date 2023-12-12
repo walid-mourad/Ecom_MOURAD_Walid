@@ -1,0 +1,1 @@
+consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=20.11.1.20

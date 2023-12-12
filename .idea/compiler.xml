@@ -10,13 +10,11 @@
         <module name="config-service" />
         <module name="inventory-service" />
         <module name="order-service" />
+        <module name="customer-service" />
         <module name="gateway-service" />
         <module name="billing" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="customer-service" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
